@@ -1,0 +1,512 @@
+
+
+@charset "utf-8";
+
+*{					/* Bildschirm reset*/
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* Mobil ----- Header-Logo-Titel-Menu*/ 
+#ganzeseite{
+    width: 400px;
+    display: block;
+}
+#ganzeseite #nav{
+    width: 400px;
+    background-color:skyblue;
+  
+}
+#ganzeseite #nav #logo{
+    width: 82%;
+    display: flex;
+}
+#ganzeseite #nav #logo .lg-text h1{
+    text-align: center;
+    color: darkblue;
+    margin-right: 50px;
+}
+#ganzeseite #nav #logo .lg-bild img{  
+    width: 60%;
+    margin-left: 20px;
+}
+ #ganzeseite #nav #logo .lg-bild{
+    width: 40%;
+}
+#ganzeseite #nav #logo .lg-text{
+    width: 60%;
+}
+#navi{
+	display: none;
+    width: 18%;
+}
+
+#navi ul li{
+    list-style: none;	/*Links Punkte entfernen*/
+    text-align: center;	/*Text mittig*/
+    color: black;
+}
+#navi ul{
+    position: relative; /*Hintergrund nicht Transparent*/
+}
+#button{ 
+	display: none;
+}
+#buttonlabel{
+	display: block;      
+	width: 72px;
+	height: 82px;
+	/*background: darkblue;*/
+}
+#button:checked + #buttonlabel + #navi{
+	display: block;
+}
+#button:checked + #buttonlabel{
+	background: black;
+    width: 15px;
+	height: 15px;
+}
+
+#button:checked + label img{
+    visibility: hidden;
+}
+label img{
+   margin-top: 21px;
+    margin-left: 15px;
+    border-radius: 30%;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* Mobil ----- Uberschrift-Hauptbild-Text*/ 
+
+#Text-Bild-Alle{
+    width: 100%;
+    background-color:aliceblue;
+    display: block;
+}
+#Text-Bild-Alle .uberschrift h2{
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+}
+#Text-Bild-Alle .uberschrift img{
+    width: 100%;
+}
+#Text-Bild-Alle .uberschrift p{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* Mobil ----- Uhr-1 - Uberschrift-Bild-Text*/ 
+#Text-Bild-Alle .uhr1{
+    width: 100%;
+    }
+
+#Text-Bild-Alle .uhr1 h2{
+    color: gold;
+    text-align: center;
+}
+
+#Text-Bild-Alle .uhr1 img{
+    width: 40%;
+}
+#Text-Bild-Alle .uhr1 p{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*+++++++++++++++++++++++++++++++++++*/
+/* Mobil ----- Uhr-2 - Uberschrift-Bild-Text*/ 
+#Text-Bild-Alle .uhr2{
+    width: 100%;
+    }
+
+#Text-Bild-Alle .uhr2 h2{
+    color: gold;
+    text-align: center;
+}
+
+#Text-Bild-Alle .uhr2 img{
+    width: 40%;
+}
+#Text-Bild-Alle .uhr2 p{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*+++++++++++++++++++++++++++++++++++*/
+/* Mobil ----- Uhr-3 - Uberschrift-Bild-Text*/ 
+#Text-Bild-Alle .uhr3{
+    width: 100%;
+    }
+
+#Text-Bild-Alle .uhr3 h2{
+    color: gold;
+    text-align: center;
+}
+
+#Text-Bild-Alle .uhr3 img{
+    width: 40%;
+}
+#Text-Bild-Alle .uhr3 p{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*+++++++++++++++++++++++++++++++++++*/
+/* Mobil ----- Uhr-4 - Uberschrift-Bild-Text*/ 
+#Text-Bild-Alle .uhr4{
+    width: 100%;
+    }
+
+#Text-Bild-Alle .uhr4 h2{
+    color: gold;
+    text-align: center;
+}
+
+#Text-Bild-Alle .uhr4 img{
+    width: 40%;
+}
+#Text-Bild-Alle .uhr4 p{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*+++++++++++++++++++++++++++++++++++*/
+/* Mobil ----- Ansprechpartner -- Frau*/ 
+#Text-Bild-Alle .ansprechpartner-frau{
+    width: 100%;
+    }
+
+#Text-Bild-Alle .ansprechpartner-frau h2{
+    color: gold;
+    text-align: center;
+}
+
+#Text-Bild-Alle .ansprechpartner-frau img{
+    width: 40%;
+}
+#Text-Bild-Alle .ansprechpartner-frau p{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/*+++++++++++++++++++++++++++++++++++*/
+/* Mobil ----- Ansprechpartner -- Herr*/ 
+#Text-Bild-Alle .ansprechpartner-herr{
+    width: 100%;
+    }
+
+#Text-Bild-Alle .ansprechpartner-herr h2{
+    color: gold;
+    text-align: center;
+}
+
+#Text-Bild-Alle .ansprechpartner-herr img{
+    width: 40%;
+}
+#Text-Bild-Alle .ansprechpartner-herr p{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* Mobil ----- Footer*/ 
+#footer .kontakt{
+    width: 100%;
+    display: block;
+    background-color: skyblue;
+	text-align: center;
+}
+#footer #footer-bilder{
+    width: 100%;
+    display: flex;
+}
+#footer #footer-bilder .social{
+    display: flex;
+    width: 50%;
+}
+#footer #footer-bilder .social img{
+    width: 100%;
+}
+#footer #footer-bilder .zahlung{
+    width: 50%;
+}
+#footer #footer-bilder .zahlung img{
+    width: 100%;
+}
+
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 1. Breakpoint*/
+@media(min-width:700px){
+  #ganzeseite{
+    width: 700px;
+    display: block;
+ }
+ #ganzeseite #nav{
+    width: 700px;
+    background-color:skyblue;
+    display: flex;
+}   
+#Text-Bild-Alle{
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color:aliceblue;
+ }
+ 
+ /* Logo Größe anpassen*/
+ #ganzeseite #nav #logo .lg-bild img{  
+    width: 76%;
+    margin-left: 20px;
+}
+#ganzeseite #nav #logo{
+    width: 37%;
+    display: flex;
+    background-color: skyblue;
+}
+    
+#navi{
+    width: 63%;
+    background-color: skyblue;
+}   
+
+#buttonlabel{
+	display: none;
+}
+
+#navi{
+    display: flex;
+}
+#navi ul{
+    display: flex;
+}
+
+#navi ul li{
+    list-style: none;	/*Links Punkte entfernen*/
+    color: black;
+    text-align: center;
+    justify-content:space-between; /* Links nebeneinder im header setzen */
+	margin: 0           20px        ;
+	text-decoration: none;
+	padding: 2px;
+}  
+
+#oberereihe{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+#unterereihe{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#obere_untere{
+    display: block;
+}
+ 
+/* Zwei Texte und Bilder nebeneinander*/
+#Text-Bild-Alle .uhr1{
+	width: 50%;
+ } 
+ #Text-Bild-Alle .uhr2{
+	width: 50%;
+ }
+ #Text-Bild-Alle .uhr3{
+	width: 50%;
+ } 
+ #Text-Bild-Alle .uhr4{
+	width: 50%;
+ }
+ #Text-Bild-Alle .ansprechpartner-frau{
+	width: 50%;
+ } 
+ #Text-Bild-Alle .ansprechpartner-herr{
+	width: 50%;
+ }
+ 
+ 
+
+
+
+/* Footer*/
+#footer{
+	display: flex;
+	background-color: skyblue;
+}
+#footer .kontakt{
+    width: 50%;
+    display: block;
+	text-align: center;
+}
+#footer #footer-bilder{
+    width: 30%;
+    display: block;
+}
+#footer #footer-bilder .social{
+    display: block;
+    width: 100%;
+}
+#footer #footer-bilder .social img{
+    width: 100%;
+	margin-top: 19px;
+	margin-left: 55px;
+}
+#footer #footer-bilder .zahlung{
+    width: 100%;
+}
+#footer #footer-bilder .zahlung img{
+    width: 100%;
+	margin-top: 15px;
+	margin-left: 55px;
+}
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* 2. Breakpoint*/
+@media(min-width:1024px){
+  #ganzeseite{
+    width: 1024px;
+    display: block;
+ }
+ #ganzeseite #nav{
+    width: 1024px;
+    background-color:skyblue;
+    display: flex;
+}   
+#Text-Bild-Alle{
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color:aliceblue;
+ }
+ 
+  /* Logo Größe anpassen*/
+ #ganzeseite #nav #logo .lg-bild img{  
+    width: 77%;
+    margin-left: 20px;
+}
+#ganzeseite #nav #logo{
+    width: 25%;
+    display: flex;
+    background-color: skyblue;
+}
+    
+   
+
+#navi{
+    width: 75%;
+    background-color: skyblue;
+    
+}   
+    
+#buttonlabel{
+	display: none;
+}
+
+#navi{
+    display: flex;
+}
+#navi ul{
+    display: flex;
+}
+
+#navi ul li{
+    list-style: none;	/*Links Punkte entfernen*/
+    color: black;
+    text-align: center;
+    justify-content:space-between; /* Links nebeneinder im header setzen */
+	margin: 0           20px        ;
+	text-decoration: none;
+	padding: 2px;
+} 
+
+#oberereihe{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#unterereihe{
+    display: flex;
+    margin-left: 1px;
+    margin-top: 30px;
+}
+#obere_untere{
+    display: flex;
+}
+
+
+/* Drei Texte und Bilder nebeneinander*/
+#Text-Bild-Alle .uhr1{
+	width: calc(100%/3);
+ } 
+ #Text-Bild-Alle .uhr2{
+	width: calc(100%/3);
+ }
+ #Text-Bild-Alle .uhr3{
+	width: calc(100%/3);
+ } 
+ #Text-Bild-Alle .uhr4{
+	width: calc(100%/3);
+ }
+ #Text-Bild-Alle .ansprechpartner-frau{
+	width: calc(100%/3);
+ } 
+ #Text-Bild-Alle .ansprechpartner-herr{
+	width: calc(100%/3);
+ }
+ 
+ 
+ 
+
+
+
+/* Footer*/
+#footer{
+	display: flex;
+	background-color: skyblue;
+}
+#footer .kontakt{
+    width: 60%;
+    display: block;
+	text-align: center;
+}
+#footer #footer-bilder{
+    width: 40%;
+    display: block;
+}
+#footer #footer-bilder .social{
+    display: block;
+    width: 100%;
+}
+#footer #footer-bilder .social img{
+    width: 50%;
+	margin-top: 18px;
+}
+#footer #footer-bilder .zahlung{
+    width: 100%;
+}
+#footer #footer-bilder .zahlung img{
+    width: 50%;
+	margin-top: 18px;
+}
+}
